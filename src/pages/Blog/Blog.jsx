@@ -52,6 +52,10 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Query Language: NoSQL databases often have their own query languages or APIs that are specific to the chosen data model. These query languages may not be as standardized as SQL but can still perform CRUD operations and complex queries
                     </p>
+                    
+                    <p className='text-2xl my-4'>
+                        Flexibility and Agility: NoSQL databases provide flexibility to store and retrieve unstructured data, making them suitable for rapidly changing data requirements and agile development environments.
+                    </p>
 
                     <Footer />
                 </div>
