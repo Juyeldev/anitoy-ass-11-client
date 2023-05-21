@@ -106,6 +106,9 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                     Expressions: Expressions are used to define computations and transformations within the pipeline stages. Expressions can include field references, arithmetic operations, logical operations, conditional statements, and more
                     </p>
+                    <p className='text-2xl my-4'>
+                        Decorators and Metadata: NestJS uses decorators and metadata to define and configure various components, such as controllers, services, and modules..
+                    </p>
 
                     <Footer />
                 </div>
