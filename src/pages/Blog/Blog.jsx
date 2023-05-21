@@ -87,6 +87,16 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Testing: NestJS offers built-in testing utilities and provides a testing framework to facilitate unit testing and integration testing of applications.
                     </p>
+                    </div>
+                <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
+                    <h3 className='text-4xl my-4'>4.What is MongoDB aggregate and how does it work?
+                    </h3>
+                    <p className='text-2xl mb-4'> In MongoDB, the aggregate operation is used to perform advanced data processing and analysis on documents within a collection. It allows you to perform complex transformations, calculations, and aggregations on the data stored in MongoDB.
+                    </p>
+                    <p className='text-2xl mb-4'>
+                    Pipeline: The aggregate pipeline consists of one or more stages, where each stage represents a specific operation. The pipeline allows you to chain multiple stages together to perform a series of transformations on the data
+
+                    </p>
 
                     <Footer />
                 </div>
