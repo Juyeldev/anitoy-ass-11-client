@@ -35,6 +35,12 @@ const Blog = () => {
                         Data Model: SQL databases use a relational data model, where data is organized into tables with rows and columns. The relationships between tables are defined by foreign keys.
 
                     </p>
+                    <p className='text-2xl mb-4'>
+                        Query Language: SQL databases use the SQL language to query and manipulate data. SQL provides a standardized way to perform complex queries using SELECT, INSERT, UPDATE, DELETE statements, and supports powerful features like joins and aggregate functions.
+                    </p>
+                    <p className='text-2xl my-4'>
+                        ACID Compliance: SQL databases typically adhere to the ACID (Atomicity, Consistency, Isolation, Durability) properties, ensuring data integrity, transactional consistency, and durability.
+                    </p>
             <Footer />
         </div>
     );
