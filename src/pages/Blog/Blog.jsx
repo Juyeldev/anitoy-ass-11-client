@@ -23,6 +23,7 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Browser Storage (Local Storage or Session Storage): Tokens can be stored in the browser's local storage or session storage. These storage mechanisms provide persistence across page refreshes and allow easy access to tokens. However, they are vulnerable to cross-site scripting (XSS) attacks, where malicious scripts can access the tokens if not properly protected.
                     </p>
+                    </div>
             <Footer />
         </div>
     );
