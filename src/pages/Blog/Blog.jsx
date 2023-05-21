@@ -56,6 +56,7 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Flexibility and Agility: NoSQL databases provide flexibility to store and retrieve unstructured data, making them suitable for rapidly changing data requirements and agile development environments.
                     </p>
+                    </div>
 
                     <Footer />
                 </div>
