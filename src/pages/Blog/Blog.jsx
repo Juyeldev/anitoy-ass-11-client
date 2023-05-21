@@ -97,6 +97,15 @@ const Blog = () => {
                     Pipeline: The aggregate pipeline consists of one or more stages, where each stage represents a specific operation. The pipeline allows you to chain multiple stages together to perform a series of transformations on the data
 
                     </p>
+                    <p className='text-2xl mb-4'>
+                    Stages: MongoDB provides a variety of stages that you can use within the aggregate pipeline. Some common stages include $match, $group, $project, $sort, $limit, and $lookup. Each stage operates on the input data and produces output based on its specific operation.
+                    </p>
+                    <p className='text-2xl my-4'>
+                    Operators: Operators are used within the stages to perform specific operations on the data. For example, the $match stage uses operators like $eq, $gt, $lt to filter documents based on certain conditions, while the $group stage uses operators like $sum, $avg, $max, $min to perform aggregations.
+                    </p>
+                    <p className='text-2xl my-4'>
+                    Expressions: Expressions are used to define computations and transformations within the pipeline stages. Expressions can include field references, arithmetic operations, logical operations, conditional statements, and more
+                    </p>
 
                     <Footer />
                 </div>
