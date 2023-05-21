@@ -69,6 +69,14 @@ const Blog = () => {
                     </p><p className='text-2xl mb-4'>
                         Templating Engines: Express.js integrates with various templating engines, such as EJS and Handlebars, to enable server-side rendering of dynamic web pages.
                     </p>
+                    <p className='text-2xl my-4'>
+                        Extension and Customization: Express.js is highly extensible and customizable. Developers can leverage third-party middleware, plugins, and modules to enhance the functionality and capabilities of their Express.js applications.
+                    </p>
+                    <p className='text-3xl my-7'># Some notable features of NestJS include:</p>
+
+                    <p className='text-2xl my-4'>
+                        Dependency Injection: NestJS leverages dependency injection to manage the instantiation and injection of dependencies throughout the application
+                    </p>
 
                     <Footer />
                 </div>
