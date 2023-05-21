@@ -78,6 +78,16 @@ const Blog = () => {
                         Dependency Injection: NestJS leverages dependency injection to manage the instantiation and injection of dependencies throughout the application
                     </p>
 
+                    <p className='text-2xl my-4'>
+                        Decorators and Metadata: NestJS uses decorators and metadata to define and configure various components, such as controllers, services, and modules..
+                    </p>
+                    <p className='text-2xl my-4'>
+                        MVC Architecture: NestJS follows the Model-View-Controller (MVC) architectural pattern to separate concerns and promote code modularity and maintainability.
+                    </p>
+                    <p className='text-2xl my-4'>
+                        Testing: NestJS offers built-in testing utilities and provides a testing framework to facilitate unit testing and integration testing of applications.
+                    </p>
+
                     <Footer />
                 </div>
                 );
