@@ -17,6 +17,12 @@ const Blog = () => {
                         Refresh Token: A refresh token is a long-lived credential that is issued alongside the access token. It is used to obtain a new access token once the previous one expires. The refresh token is usually sent to the server in exchange for a new access token. Unlike access tokens, refresh tokens have a longer lifespan and are used to maintain a continuous session without requiring the user to reauthenticate frequently.
 
                     </p>
+                    <p className='text-2xl mb-4'>
+                        Memory Storage: Tokens can be stored in memory variables within the client application. However, this method has limitations as the tokens will be lost if the user refreshes the page or closes the application.
+                    </p>
+                    <p className='text-2xl my-4'>
+                        Browser Storage (Local Storage or Session Storage): Tokens can be stored in the browser's local storage or session storage. These storage mechanisms provide persistence across page refreshes and allow easy access to tokens. However, they are vulnerable to cross-site scripting (XSS) attacks, where malicious scripts can access the tokens if not properly protected.
+                    </p>
             <Footer />
         </div>
     );
