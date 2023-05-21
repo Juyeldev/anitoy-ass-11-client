@@ -57,6 +57,16 @@ const Blog = () => {
                         Flexibility and Agility: NoSQL databases provide flexibility to store and retrieve unstructured data, making them suitable for rapidly changing data requirements and agile development environments.
                     </p>
                     </div>
+                    <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
+                    <h3 className='text-4xl my-4'>3.What is express js? What is Nest JS?
+                    </h3>
+                    <p className='text-3xl my-4'># Key features of Express.js include::</p>
+                    <p className='text-2xl mb-4'>Routing: Express.js provides a simple and intuitive routing mechanism that allows developers to define routes and handle HTTP requests for different URLs and HTTP methods.
+                    </p>
+                    <p className='text-2xl mb-4'>
+                        Middleware: Express.js allows the use of middleware functions, which are functions that can be executed before processing a request. Middleware functions can perform tasks such as parsing request bodies, handling authentication, logging, error handling, and more.
+
+                    </p>
 
                     <Footer />
                 </div>
