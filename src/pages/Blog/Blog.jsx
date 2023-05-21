@@ -24,6 +24,17 @@ const Blog = () => {
                         Browser Storage (Local Storage or Session Storage): Tokens can be stored in the browser's local storage or session storage. These storage mechanisms provide persistence across page refreshes and allow easy access to tokens. However, they are vulnerable to cross-site scripting (XSS) attacks, where malicious scripts can access the tokens if not properly protected.
                     </p>
                     </div>
+
+                    <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
+                    <h3 className='text-4xl my-4'>2.Compare SQL and NoSQL databases?
+                    </h3>
+                    <p className='text-3xl my-7'># SQL Databases:</p>
+                    <p className='text-2xl mb-4'>Structure: SQL databases are based on a structured schema that defines the tables, columns, and relationships between them. They follow a rigid structure and enforce data integrity through the use of constraints, such as primary keys and foreign keys.
+                    </p>
+                    <p className='text-2xl mb-4'>
+                        Data Model: SQL databases use a relational data model, where data is organized into tables with rows and columns. The relationships between tables are defined by foreign keys.
+
+                    </p>
             <Footer />
         </div>
     );
