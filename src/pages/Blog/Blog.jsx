@@ -109,6 +109,9 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Decorators and Metadata: NestJS uses decorators and metadata to define and configure various components, such as controllers, services, and modules..
                     </p>
+                    <p className='text-2xl my-4'>
+                        MVC Architecture: NestJS follows the Model-View-Controller (MVC) architectural pattern to separate concerns and promote code modularity and maintainability.
+                    </p>
 
                     <Footer />
                 </div>
