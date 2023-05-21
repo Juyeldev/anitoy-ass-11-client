@@ -52,12 +52,12 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Query Language: NoSQL databases often have their own query languages or APIs that are specific to the chosen data model. These query languages may not be as standardized as SQL but can still perform CRUD operations and complex queries
                     </p>
-                    
+
                     <p className='text-2xl my-4'>
                         Flexibility and Agility: NoSQL databases provide flexibility to store and retrieve unstructured data, making them suitable for rapidly changing data requirements and agile development environments.
                     </p>
-                    </div>
-                    <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
+                </div>
+                <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
                     <h3 className='text-4xl my-4'>3.What is express js? What is Nest JS?
                     </h3>
                     <p className='text-3xl my-4'># Key features of Express.js include::</p>
@@ -87,24 +87,24 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Testing: NestJS offers built-in testing utilities and provides a testing framework to facilitate unit testing and integration testing of applications.
                     </p>
-                    </div>
+                </div>
                 <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
                     <h3 className='text-4xl my-4'>4.What is MongoDB aggregate and how does it work?
                     </h3>
                     <p className='text-2xl mb-4'> In MongoDB, the aggregate operation is used to perform advanced data processing and analysis on documents within a collection. It allows you to perform complex transformations, calculations, and aggregations on the data stored in MongoDB.
                     </p>
                     <p className='text-2xl mb-4'>
-                    Pipeline: The aggregate pipeline consists of one or more stages, where each stage represents a specific operation. The pipeline allows you to chain multiple stages together to perform a series of transformations on the data
+                        Pipeline: The aggregate pipeline consists of one or more stages, where each stage represents a specific operation. The pipeline allows you to chain multiple stages together to perform a series of transformations on the data
 
                     </p>
                     <p className='text-2xl mb-4'>
-                    Stages: MongoDB provides a variety of stages that you can use within the aggregate pipeline. Some common stages include $match, $group, $project, $sort, $limit, and $lookup. Each stage operates on the input data and produces output based on its specific operation.
+                        Stages: MongoDB provides a variety of stages that you can use within the aggregate pipeline. Some common stages include $match, $group, $project, $sort, $limit, and $lookup. Each stage operates on the input data and produces output based on its specific operation.
                     </p>
                     <p className='text-2xl my-4'>
-                    Operators: Operators are used within the stages to perform specific operations on the data. For example, the $match stage uses operators like $eq, $gt, $lt to filter documents based on certain conditions, while the $group stage uses operators like $sum, $avg, $max, $min to perform aggregations.
+                        Operators: Operators are used within the stages to perform specific operations on the data. For example, the $match stage uses operators like $eq, $gt, $lt to filter documents based on certain conditions, while the $group stage uses operators like $sum, $avg, $max, $min to perform aggregations.
                     </p>
                     <p className='text-2xl my-4'>
-                    Expressions: Expressions are used to define computations and transformations within the pipeline stages. Expressions can include field references, arithmetic operations, logical operations, conditional statements, and more
+                        Expressions: Expressions are used to define computations and transformations within the pipeline stages. Expressions can include field references, arithmetic operations, logical operations, conditional statements, and more
                     </p>
                     <p className='text-2xl my-4'>
                         Decorators and Metadata: NestJS uses decorators and metadata to define and configure various components, such as controllers, services, and modules..
@@ -112,10 +112,15 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         MVC Architecture: NestJS follows the Model-View-Controller (MVC) architectural pattern to separate concerns and promote code modularity and maintainability.
                     </p>
-
-                    <Footer />
+                    <p className='text-2xl my-4'>
+                        Testing: NestJS offers built-in testing utilities and provides a testing framework to facilitate unit testing and integration testing of applications.
+                    </p>
                 </div>
-                );
+            </div>
+
+            <Footer />
+        </div>
+    );
 };
 
-                export default Blog;
+export default Blog;

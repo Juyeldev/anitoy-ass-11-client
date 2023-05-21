@@ -16,7 +16,7 @@ const OurService = () => {
                     <img className='mx-auto rounded-xl' src={delivery} alt="" />
                     <div>
                         <h5 className='py-4 text-2xl'>On Time Delivery</h5>
-                        <p>"We guarantee on-time delivery, fulfilling your requirements promptly and efficiently. Our commitment is rooted in delivering exceptional service, meeting deadlines with unwavering dedication."!</p>
+                        <p>"We guarantee on-time delivery, fulfilling your requirements promptly and efficiently. Our commitment is rooted in delivering is exceptional service, meeting deadlines with unwavering dedication."!</p>
                     </div>
 
                 </div>
