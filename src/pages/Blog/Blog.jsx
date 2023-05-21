@@ -66,6 +66,8 @@ const Blog = () => {
                     <p className='text-2xl mb-4'>
                         Middleware: Express.js allows the use of middleware functions, which are functions that can be executed before processing a request. Middleware functions can perform tasks such as parsing request bodies, handling authentication, logging, error handling, and more.
 
+                    </p><p className='text-2xl mb-4'>
+                        Templating Engines: Express.js integrates with various templating engines, such as EJS and Handlebars, to enable server-side rendering of dynamic web pages.
                     </p>
 
                     <Footer />
