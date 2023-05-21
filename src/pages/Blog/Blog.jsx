@@ -23,9 +23,9 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Browser Storage (Local Storage or Session Storage): Tokens can be stored in the browser's local storage or session storage. These storage mechanisms provide persistence across page refreshes and allow easy access to tokens. However, they are vulnerable to cross-site scripting (XSS) attacks, where malicious scripts can access the tokens if not properly protected.
                     </p>
-                    </div>
+                </div>
 
-                    <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
+                <div className='bg-custom-navy rounded mx-auto my-8 text-white p-8'>
                     <h3 className='text-4xl my-4'>2.Compare SQL and NoSQL databases?
                     </h3>
                     <p className='text-3xl my-7'># SQL Databases:</p>
@@ -41,9 +41,15 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         ACID Compliance: SQL databases typically adhere to the ACID (Atomicity, Consistency, Isolation, Durability) properties, ensuring data integrity, transactional consistency, and durability.
                     </p>
-            <Footer />
-        </div>
-    );
+                    <p className='text-3xl my-7'># NoSQL Databases:</p>
+
+                    <p className='text-2xl my-4'>
+                        Structure: NoSQL databases have a flexible schema, allowing for dynamic and unstructured data. The structure of data can vary from one document or collection to another.
+                    </p>
+
+                    <Footer />
+                </div>
+                );
 };
 
-export default Blog;
+                export default Blog;
