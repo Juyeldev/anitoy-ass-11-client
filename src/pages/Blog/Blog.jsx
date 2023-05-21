@@ -46,6 +46,12 @@ const Blog = () => {
                     <p className='text-2xl my-4'>
                         Structure: NoSQL databases have a flexible schema, allowing for dynamic and unstructured data. The structure of data can vary from one document or collection to another.
                     </p>
+                    <p className='text-2xl my-4'>
+                        Data Model: NoSQL databases use various data models, such as key-value, document, columnar, or graph, depending on the specific database. Each data model offers different strengths and can be chosen based on the requirements of the application.
+                    </p>
+                    <p className='text-2xl my-4'>
+                        Query Language: NoSQL databases often have their own query languages or APIs that are specific to the chosen data model. These query languages may not be as standardized as SQL but can still perform CRUD operations and complex queries
+                    </p>
 
                     <Footer />
                 </div>
